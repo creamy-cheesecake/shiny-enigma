@@ -1,0 +1,27 @@
+{
+  "name": "shiny-enigma",
+  "version": "1.0.0",
+  "description": "say bye bye to RCA",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creamy-cheesecake/shiny-enigma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creamy-cheesecake/shiny-enigma/issues"
+  },
+  "homepage": "https://github.com/creamy-cheesecake/shiny-enigma#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  }
+}
